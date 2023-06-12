@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+
+.container{
+    height: 70%;
+    max-width: 65%;
+    background-color: transparent;
+    box-shadow: 10px 10px 5px rgba(100, 147, 147, 0.068);
+    display: flex;
+    
+}
+
+.first-container{
+    background-color: hsl(31, 77%, 52%);
+    height: 100%;
+    padding: 2.5rem;
+    border-radius: .5rem 0 0 .5rem ;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    width: 33.33%;
+}
+
+.first-container > img {
+    opacity: .7;
+    height: 2.25rem;
+    width: 3.8rem; 
+}
+
+.first-container > div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+max-width: 90%;
+}
+
+.first-container > div > h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+font-weight: 700;
+}
+
+.first-container > div > p{
+   color: hsla(0, 0%, 100%, 0.582);
+   font-family: 'Lexend Deca', sans-serif;
+   font-size: .8rem;
+   font-weight: 400;
+   line-height: 1.4rem;
+   letter-spacing: .015rem;
+}
+
+.first-container > button{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 3rem;
+    padding: .8rem;
+    color: hsl(31, 77%, 52%);
+    margin-top: 3rem;
+    max-width: 65.6%;
+    font-family: 'Lexend Deca', sans-serif;
+   font-size: .8rem;
+   font-weight: 400;
+   
+}
+
+.first-container > button:hover{
+    background-color: hsl(31, 77%, 52%);
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    font-size: .7rem;
+}
+
+
+
+
+
+.second-container{
+    background-color: hsl(184, 100%, 22%);
+    height: 100%;
+    padding: 2.5rem;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    width: 33.33%;
+}
+
+.second-container > img {
+    opacity: .7;
+    height: 2.25rem;
+    width: 3.8rem; 
+}
+
+.second-container > div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+max-width: 90%;
+}
+
+.second-container > div > h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+font-weight: 700;
+}
+
+.second-container > div > p{
+   color: hsla(0, 0%, 100%, 0.582);
+   font-family: 'Lexend Deca', sans-serif;
+   font-size: .8rem;
+   font-weight: 400;
+   line-height: 1.4rem;
+   letter-spacing: .015rem;
+}
+
+.second-container > button{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 3rem;
+    padding: .8rem;
+    color: hsl(184, 100%, 22%);
+    margin-top: 3rem;
+    max-width: 65%;
+    font-family: 'Lexend Deca', sans-serif;
+   font-size: .8rem;
+   font-weight: 400;
+   max-width: 65.6%;
+}
+
+.second-container > button:hover{
+    background-color: hsl(184, 100%, 22%);
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    font-size: .7rem;
+}
+
+
+
+
+
+.third-container{
+    background-color: hsl(179, 100%, 13%);
+    height: 100%;
+    padding: 2.5rem;
+    border-radius: 0 .5rem .5rem 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    width: 33.33%;
+}
+
+.third-container > img {
+    opacity: .7;
+    height: 2.25rem;
+    width: 3.8rem; 
+}
+
+.third-container > div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+max-width: 90%;
+}
+
+.third-container > div > h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+font-weight: 700;
+}
+
+.third-container > div > p{
+   color: hsla(0, 0%, 100%, 0.582);
+   font-family: 'Lexend Deca', sans-serif;
+   font-size: .8rem;
+   font-weight: 400;
+   line-height: 1.4rem;
+   letter-spacing: .015rem;
+}
+
+.third-container > button{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 3rem;
+    padding: .8rem;
+    color: hsl(179, 100%, 13%);
+    margin-top: 3rem;
+    max-width: 65%;
+    font-family: 'Lexend Deca', sans-serif;
+   font-size: .8rem;
+   font-weight: 400;
+   max-width: 65.6%;
+}
+
+.third-container > button:hover{
+    background-color: hsl(179, 100%, 13%);
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    font-size: .7rem;
+}
+
+@media (max-width: 1055px){
+main{
+    height: 100%;
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    max-width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto;
+}
+
+.first-container{
+    height: 60%;
+    width: 90%;
+    border-radius: .5rem .5rem 0 0;
+}
+
+.second-container{
+    height: 60%;
+    width: 90%;
+}
+
+.third-container{
+    height: 60%;
+    width: 90%;
+
+    border-radius: 0 0 .5rem .5rem;
+}
+}
+/* ### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%) */
